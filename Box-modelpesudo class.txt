@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="https://www.w3schools.com/css/css_table_responsive.asp" target="_blank">CSS Responsive</a>
+    <div class="container">
+      
+      <div class="btn-head">
+        <span class="btn-span">Button 1</span>
+       
+      </div>
+
+      <div class="btn-head">
+        <span class="btn-span">Button 2</span>
+      </div>
+
+      <div class="btn-head">
+        <span class="btn-span">Button 3</span>
+      </div>
+
+      <div class="btn-head">
+        <span class="btn-span">Button 4</span>
+      </div>
+
+      <div class="btn-head">
+        <span class="btn-span">Button 5</span>
+      </div>
+    </div>
+
+    <!-- <div class="container">
+      <button type="button" class="btn">Button-1</button>
+      <button type="button" class="btn">Button-2</button>
+      <button type="button" class="btn">Button-3</button>
+      <button type="button" class="btn">Button-4</button>
+      <button type="button" class="btn">Button-5</button>
+    </div> -->
+  </body>
+</html>
+
+
+style
+
+/* div
+{
+  background-color: aqua !important;
+  height:100px;
+  width:200px;
+  color:red;
+  text-align: center;
+  border:1px solid black;
+  padding:20px 10px 10px 15px;
+  margin:20px 10px 20px 50px;
+}
+
+.demo
+{
+  background-color:violet;
+}
+
+#demoid
+{
+  background-color: palegreen;
+} */
+
+
+body
+{
+  background-image:url("https://res.cloudinary.com/tripbae/images/f_auto,q_auto/v1655398739/Gokarna-Beach-Trek-1-2/Gokarna-Beach-Trek-1-2.jpg?_i=AA");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment:fixed;
+  background-size:cover;
+}
+
+.btn-head
+{ 
+  display:inline-block;
+  border:1px solid black;
+  width:60px;
+  padding:15px;
+  margin:20px;
+  border-radius:10px;
+  background-color:rgb(234, 255, 0)
+}
+.btn-span
+{
+  color:blue
+
+}
+
+a:hover
+{
+  background-color: yellow;
+  text-decoration: none;
+}
+
+.btn-span:hover
+{
+  background-color: rgb(195, 255, 127);
+  font-size: 20px;
+}
+
+.btn-span:visited
+{
+  background-color: rgb(255, 255, 0);
+}
+.btn-head:last-child
+{
+  background-color: tomato;
+}
+
+.btn-head:nth-child(3)
+{
+  background-color:cornflowerblue;
+}
+
+
+.btn-head:first-child
+{
+  background-color:slategrey;
+}
+
+.btn-head:nth-child(4)
+{
+  background-color:rgb(235, 100, 237);
+}
+

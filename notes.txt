@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul style="list-style-type: disc">
+      <li>Programming Language</li>
+
+      <ul style="list-style-type: circle">
+        <li>JavaScript</li>
+        <ol type="a">
+          <li>Angular</li>
+          <li>React</li>
+          <li>Vue.js</li>
+        </ol>
+      </ul>
+      <ul style="list-style-type: circle;">
+        <li>Python</li>
+        <ol type="a">
+          <li>Django Framework</li>
+          <li>Flask Framework</li>
+        </ol>
+      </ul>
+      <ul style="list-style-type: circle;"> 
+        <li>Java</li>
+        <ol type="a">
+          <li>Spring</li>
+          <li>Maven</li>
+          <li>Hibernate</li>
+        </ol>
+      </ul>
+    </ul>
+    <ul style="list-style-type: disc;">
+      <li>Database</li>
+      <ul style="list-style-type: circle;">
+        <li>MySQL</li>
+        <li>MongoDB</li>
+        <li>Cansandra</li>
+      </ul>
+    </ul>
+  </body>
+</html>
+
+
+Task 2:Movie detils
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leo</title>
+    <link
+      rel="icon"
+      href="https://cdn.dribbble.com/users/2183668/screenshots/15230506/media/2dbb27b749acfbe17b20bd4b3fc806be.png?resize=400x0"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>MOVIE:LEO</h1>
+    <p>
+      Leo is a 2023 Indian Tamil-language action thriller film directed by<br>
+      Lokesh Kanagaraj and produced by Seven Screen Studio. The film stars Vijay<br>
+      in the titular role, alongside Sanjay Dutt, Arjun, Trisha, Gautham Vasudev<br>
+      Menon, Mysskin, Madonna Sebastian, George Maryan, Mansoor Ali Khan, Priya<br>
+      Anand and Mathew Thomas.
+    </p>
+    <img src="Leo image" alt="Leo image">
+    <h3>Genere : Action</h3>
+    <ul>
+      <li>Actors</li>
+      <ol>
+        <li>Vijay</li>
+        <li>Arjun</li>
+        <li>Sanjay Dutt</li>
+        <li>GVM</li>
+      </ol>
+    </ul>
+    <ul>
+      <li>Actress</li>
+      <ol>
+        <li>Trisha</li>
+        <li>Priya anand</li>
+        <li>Madonna Sebastian</li>
+      </ol>
+    </ul>
+    <a href="https://en.wikipedia.org/wiki/Leo_(2023_Indian_film)" target="_blank">Click here For Details</a><br>
+    <label for="email"><mark>E-mail</mark></label><br>
+    <input type="email" id="email"><br>
+  </body>
+</html>
+
+
+
+Task 3
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first webpage</title>
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/128/11885/11885021.png"
+    />
+    <style>
+      body {
+        background-color: black;
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML: HyperText Markup Language</h1>
+    <p>
+      HTML (HyperText Markup Language) is the most basic building block of the
+      Web.<br />
+      It defines the meaning and structure of web content. Other technologies
+      besides <br />
+      HTML are generally used to describe a web page's appearance/presentation
+      (CSS) or<br />
+      functionality/behavior (JavaScript)
+    </p>
+    <hr />
+    <p>This is Dinesh written webpage</p>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJXdub1xRPoFYM7op8N-ylpIOYw5eeHszO04q0bg7e1FEVLm136t169XMSw-Ljbq4f17M&usqp=CAU"
+      alt="This is Html images"
+    /><br />
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"
+      >Click heres</a
+    >
+    <ol type="1">
+      <li>HTML</li>
+      <li>HTML 5</li>
+    </ol>
+    <ul style="list-style-type: disc">
+      <li>CSS</li>
+      <li>CSS Tailwind</li>
+    </ul>
+
+
+    
+  </body>
+</html>
+
+Task 4(Semantic order)
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h2>HTML:HyperText Markup Language</h2>
+      <nav class="nav-container">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section>
+          <p>
+            HTML (HyperText Markup Language) is the most basic building block
+            of<br />
+            the Web. It defines the meaning and structure of web content.
+            Other<br />
+            technologies besides HTML are generally used to describe a web
+            page's<br />
+            appearance/presentation (CSS) or functionality/behavior
+            (JavaScript).<br />
+          </p>
+        </section>
+        <section>
+          <p>
+            "Hypertext" refers to links that connect web pages to one
+            another,<br />
+            either within a single website or between websites. Links are a<br />
+            fundamental aspect of the Web. By uploading content to the
+            Internet<br />
+            and linking it to pages created by other people, you become an
+            active<br />
+            participant in the World Wide Web.
+          </p>
+        </section>
+      </article>
+      <aside>
+        <section>
+          <p>
+            HTML uses "markup" to annotate text, images, and other content
+            for<br />
+            display in a Web browser.<br />
+            HTML markup includes special "elements" such as
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head"
+              target="_blank"
+              >head</a
+            >
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title"
+              target="_blank"
+              >title</a
+            >
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body"
+              target="_blank"
+              >body</a
+            >
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header"
+              target="_blank"
+              >header</a
+            >
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer"
+              target="_blank"
+              >footer</a
+            >
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article"
+              target="_blank"
+              >article</a
+            >
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section"
+              target="_blank"
+              >section</a
+            >
+          </p>
+        </section>
+      </aside>
+    </main>
+    <footer>
+      <h1>Related topics</h1>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Applying_color"
+        target="_blank"
+        >Applying color to CSS</a
+      >
+      <p>
+        This article covers most of the ways you use CSS to add color to HTML<br>
+        content, listing what parts of HTML documents can be colored and what<br>
+        CSS properties to use when doing so. Includes examples, links to<br>
+        palette-building tools, and more.<br>  
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  
+  </style>
+</head>
+<body>
+  <div class="first">
+    <div>
+<table>
+  <caption>Health Cart</caption>
+ 
+    
+      <tr>
+        <th rowspan="2">State of Health</th>
+        <th colspan="2">Fasting Value</th>
+        <th>After Eating</th>
+      </tr>
+   
+    
+        <tr>
+          <td>Minimum</td>
+          <td>Maximum</td>
+          <td>2 Hours After Eating</td>
+        </tr>
+    
+        <tr>
+          <td>Healthy</td>
+          <td>70</td>
+          <td>100</td>
+          <td>Less than 140</td>
+        </tr>
+     
+        <tr>
+          <td>Pre-Diabetes</td>
+          <td>101</td>
+          <td>126</td>
+          <td>140 to 200</td>
+        </tr>
+
+        <tr>
+          <td>Diabetes</td>
+          <td>More than 126</td>
+          <td>N/A</td>
+          <td>More than 200</td>
+        </tr>
+</table>
+</div>
+</div>
+</body>
+</html> 
+
+
+
+CSS
+
+body
+{
+  background-color: palegreen;
+  
+}
+
+
+table,td,th
+{
+  text-align: center;
+  background-color: chocolate;
+  height:80px;
+  width: 700px;
+  border:2px solid black;
+  border-collapse:collapse;
+  margin-left:550px;
+  margin-top:100px;
+ 
+  
+}
+
+
+caption
+{
+    display: table-caption !important;
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-size:x-large;
+    color:red;
+}
+
+
+
+
+/* body
+{
+  background-image:url("kia_seltos.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-attachment: fixed;
+  background-size:cover;
+} */
